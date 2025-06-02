@@ -66,8 +66,8 @@ My Repository:
 
 Want to see ArgoCD in action? Here's how:
 
+### Step 1: Connect to ArgoCD
 ```bash
-# Step 1: Connect to ArgoCD
 kubectl port-forward svc/argo-cd-nebius-demo-geeta-argocd-server -n argo-cd-nebius-demo-gk 8080:80
 
 # Step 2: Open your browser
