@@ -71,12 +71,12 @@ Want to see ArgoCD in action? Here's how:
 kubectl port-forward svc/argo-cd-nebius-demo-geeta-argocd-server -n argo-cd-nebius-demo-gk 8080:80
 ```
 
-###Step 2: Open your browser
+### Step 2: Open your browser
 Go to: http://localhost:8080
 Username: admin
 Password: xxxxxxxxxxx
 
-###Step 3: Deploy the application
+### Step 3: Deploy the application
 bashkubectl apply -f argocd-apps/bert-demo-app.yaml
 
 ### Performance Numbers
