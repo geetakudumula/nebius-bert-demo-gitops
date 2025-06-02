@@ -1,4 +1,4 @@
-markdown# Nebius BERT Demo - GitOps Repository
+# Nebius BERT Demo - GitOps Repository
 
 This repository demonstrates enterprise-grade MLOps practices using GitOps for ML workloads on Nebius.ai platform.
 
