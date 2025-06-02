@@ -2,7 +2,7 @@
 
 This project shows how to build a professional ML system using modern DevOps practices on Nebius.ai platform.
 
-## 🚀 What I Built
+##  What I Built
 
 I created an automated ML pipeline that trains, deploys, and compares BERT models - all managed through Git!
 
@@ -12,7 +12,7 @@ I created an automated ML pipeline that trains, deploys, and compares BERT model
 
 The screenshot above shows ArgoCD managing everything automatically. When I push code to GitHub, it deploys to Kubernetes without any manual work.
 
-## 📊 My Results
+##  My Results
 
 ### Task 1: Training a Smarter BERT
 I fine-tuned BERT to understand financial language better:
@@ -34,7 +34,7 @@ Created tests that compare the original and improved models:
 - Measures speed and accuracy
 - Proves the training was successful
 
-## 🔄 How GitOps Makes Life Easy
+##  How GitOps Makes Life Easy
 
 Instead of manually deploying code, everything happens automatically:
 
@@ -44,7 +44,7 @@ Instead of manually deploying code, everything happens automatically:
 4. **I can see everything** → Dashboard shows status
 5. **Easy rollback** → One click to go back if needed
 
-## 🏗️ Project Structure
+##  Project Structure
 My Repository:
 ├── manifests/                 # All my Kubernetes files
 │   ├── namespace.yaml        # Creates workspace
@@ -54,7 +54,7 @@ My Repository:
 ├── argocd-apps/              # ArgoCD configuration
 └── argocd-screenshots/       # Proof it works!
 
-## 🎯 Why This Matters
+### Why This Matters
 
 - **No more manual deployments**: Everything is automated
 - **Never lose work**: All changes tracked in Git
@@ -62,7 +62,7 @@ My Repository:
 - **Production ready**: This is how real companies work
 - **Fast recovery**: Mistakes are easy to fix
 
-## 🚦 Try It Yourself
+## Try It Yourself
 
 Want to see ArgoCD in action? Here's how:
 
@@ -71,15 +71,15 @@ Want to see ArgoCD in action? Here's how:
 kubectl port-forward svc/argo-cd-nebius-demo-geeta-argocd-server -n argo-cd-nebius-demo-gk 8080:80
 ```
 
-Step 2: Open your browser
-
+###Step 2: Open your browser
 Go to: http://localhost:8080
 Username: admin
-Password: Fd-ohP2GzHQK7u04
+Password: xxxxxxxxxxx
 
-Step 3: Deploy the application
+###Step 3: Deploy the application
 bashkubectl apply -f argocd-apps/bert-demo-app.yaml
-📈 Performance Numbers
+
+### Performance Numbers
 Here's what I achieved:
 
 Training improvement: 68% better accuracy
@@ -87,7 +87,7 @@ API speed: Under 6ms per request
 Deployment time: Less than 2 minutes
 Code to production: Fully automated
 
-🛠️ Technologies I Used
+### Technologies I Used
 
 Nebius.ai: Cloud platform with powerful GPUs
 ArgoCD: Automates deployments from Git
@@ -95,7 +95,7 @@ Kubernetes: Runs everything in containers
 BERT: Google's language understanding model
 H100 GPUs: NVIDIA's fastest processors
 
-🏆 What Makes This Special
+### What Makes This Special
 This isn't just a demo - it's a complete ML platform that:
 
 Trains models automatically
@@ -104,56 +104,7 @@ Monitors everything in real-time
 Can scale to handle millions of requests
 
 
-
-
-
-
-
-
-
-
-
-## 🚦 Try It Yourself
-
-Want to see ArgoCD in action? Here's how:
-
-### Step 1: Connect to ArgoCD
-```bash
-kubectl port-forward svc/argo-cd-nebius-demo-geeta-argocd-server -n argo-cd-nebius-demo-gk 8080:80
-
-# Step 2: Open your browser
-# Go to: http://localhost:8080
-# Username: admin
-# Password: Fd-ohP2GzHQK7u04
-
-# Step 3: Deploy the application
-kubectl apply -f argocd-apps/bert-demo-app.yaml
-📈 Performance Numbers
-Here's what I achieved:
-
-Training improvement: 68% better accuracy
-API speed: Under 6ms per request
-Deployment time: Less than 2 minutes
-Code to production: Fully automated
-
-🛠️ Technologies I Used
-
-Nebius.ai: Cloud platform with powerful GPUs
-ArgoCD: Automates deployments from Git
-Kubernetes: Runs everything in containers
-BERT: Google's language understanding model
-H100 GPUs: NVIDIA's fastest processors
-
-🏆 What Makes This Special
-This isn't just a demo - it's a complete ML platform that:
-
-Trains models automatically
-Deploys without human intervention
-Monitors everything in real-time
-Can scale to handle millions of requests
-
-
-Built for Nebius.ai Demo Day - Showing how modern ML teams work! 🚀
+### Built for Nebius.ai Demo Day - Showing how modern ML teams work! 🚀
 
 This version:
 - Uses simple, conversational language
