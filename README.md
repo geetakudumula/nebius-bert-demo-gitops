@@ -114,3 +114,8 @@ This isn't just some toy project - it's a real ML platform that:
   <strong>Built for Nebius.ai Demo Day</strong><br>
   Showing how modern ML teams work! 🚀
 </p>
+##  About Me
+
+Geeta Kudumula  
+AI/ML Solutions Architect  
+[LinkedIn](https://www.linkedin.com/in/geeta-kudumula-7963b990/)
