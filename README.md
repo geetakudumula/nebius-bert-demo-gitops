@@ -1,18 +1,18 @@
 # Nebius BERT Demo - GitOps Repository
 
-I built a cool ML system that basically runs itself using Nebius.ai - let me show you how it works!
+I built a cool ML system that basically runs itself using Nebius.ai, let me show you how it works!
 
-## 🚀 What I Built
+## What I Built
 
-So I made this pipeline that trains and deploys BERT models automatically. The best part? I just push code to Git and everything else happens on its own!
+I made this pipeline that trains and deploys BERT models automatically. The best part? I just push code to Git and everything else happens on its own!
 
 <p align="center">
   <img src="argocd-screenshots/01-argocd-dashboard-synced.png" alt="ArgoCD Dashboard" width="800">
 </p>
 
-Look at this dashboard - ArgoCD watches my GitHub and deploys everything automatically. No more clicking buttons or running commands!
+Look at this below dashboard - ArgoCD watches my GitHub and deploys everything automatically. No more clicking buttons or running commands!
 
-## 📊 My Results
+## My Results
 
 ### Task 1: Teaching BERT About Finance
 I taught BERT to understand money talk better:
@@ -34,7 +34,7 @@ Built tests to show the improvement actually works:
 * Checks both speed and accuracy
 * Proves I didn't just get lucky
 
-## 🔄 How GitOps Makes Life Easy
+##  How GitOps Makes Life Easy
 
 Here's the magic - I don't deploy anything manually anymore:
 
@@ -44,7 +44,7 @@ Here's the magic - I don't deploy anything manually anymore:
 4. **I watch it happen** → See everything on the dashboard
 5. **Oops button** → If something breaks, one click fixes it
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 My Repository:
@@ -64,7 +64,7 @@ My Repository:
 * **Real-world ready**: This is how the pros do it
 * **Easy fixes**: Messed up? Just roll back
 
-## 🎯 Try It Yourself
+##  Try It Yourself
 
 Want to play with ArgoCD? Here's how:
 
@@ -84,7 +84,7 @@ Password: `xxxxxxxxxxx`
 kubectl apply -f argocd-apps/bert-demo-app.yaml
 ```
 
-## 📈 Performance Numbers
+##  Performance Numbers
 
 Here's what I pulled off:
 * **Training boost**: 68% better at understanding text
@@ -92,7 +92,7 @@ Here's what I pulled off:
 * **Deploy time**: Under 2 minutes from push to live
 * **Human work needed**: Zero!
 
-## 🔧 Technologies I Used
+##  Technologies I Used
 
 * **Nebius.ai**: Cloud with super powerful GPUs
 * **ArgoCD**: Watches Git and deploys stuff
@@ -100,7 +100,7 @@ Here's what I pulled off:
 * **BERT**: Google's smart language model
 * **H100 GPUs**: NVIDIA's beast machines
 
-## 🏆 What Makes This Special
+##  What Makes This Special
 
 This isn't just some toy project - it's a real ML platform that:
 * Trains models while I sleep
