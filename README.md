@@ -1,5 +1,4 @@
-Here's a simplified, human-friendly version of your README:
-markdown# Nebius BERT Demo - GitOps Repository
+# Nebius BERT Demo - GitOps Repository
 
 This project shows how to build a professional ML system using modern DevOps practices on Nebius.ai platform.
 
