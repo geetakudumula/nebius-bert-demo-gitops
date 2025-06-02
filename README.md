@@ -89,6 +89,12 @@ Code to production: Fully automated
 
 ### Technologies I Used
 
+-Nebius.ai: Cloud platform with powerful GPUs
++ArgoCD: Automates deployments from Git
+Kubernetes: Runs everything in containers
+BERT: Google's language understanding model
+H100 GPUs: NVIDIA's fastest processors
+
 Nebius.ai: Cloud platform with powerful GPUs
 ArgoCD: Automates deployments from Git
 Kubernetes: Runs everything in containers
