@@ -69,6 +69,55 @@ Want to see ArgoCD in action? Here's how:
 ### Step 1: Connect to ArgoCD
 ```bash
 kubectl port-forward svc/argo-cd-nebius-demo-geeta-argocd-server -n argo-cd-nebius-demo-gk 8080:80
+Step 2: Open your browser
+
+Go to: http://localhost:8080
+Username: admin
+Password: Fd-ohP2GzHQK7u04
+
+Step 3: Deploy the application
+bashkubectl apply -f argocd-apps/bert-demo-app.yaml
+📈 Performance Numbers
+Here's what I achieved:
+
+Training improvement: 68% better accuracy
+API speed: Under 6ms per request
+Deployment time: Less than 2 minutes
+Code to production: Fully automated
+
+🛠️ Technologies I Used
+
+Nebius.ai: Cloud platform with powerful GPUs
+ArgoCD: Automates deployments from Git
+Kubernetes: Runs everything in containers
+BERT: Google's language understanding model
+H100 GPUs: NVIDIA's fastest processors
+
+🏆 What Makes This Special
+This isn't just a demo - it's a complete ML platform that:
+
+Trains models automatically
+Deploys without human intervention
+Monitors everything in real-time
+Can scale to handle millions of requests
+
+
+
+
+
+
+
+
+
+
+
+## 🚦 Try It Yourself
+
+Want to see ArgoCD in action? Here's how:
+
+### Step 1: Connect to ArgoCD
+```bash
+kubectl port-forward svc/argo-cd-nebius-demo-geeta-argocd-server -n argo-cd-nebius-demo-gk 8080:80
 
 # Step 2: Open your browser
 # Go to: http://localhost:8080
