@@ -2,17 +2,17 @@
 
 I built a cool ML system that basically runs itself using Nebius.ai - let me show you how it works!
 
-## 🚀 What I Built
+##  What I Built
 
-I made this pipeline that trains and deploys BERT models automatically. The best part? I just push code to Git and everything else happens on its own! Plus, I added MLflow to track every experiment like a pro!
+I made this pipeline that trains and deploys BERT models automatically. The best part? I just push code to Git and everything else happens on its own! Plus, I added MLflow to track every experiment that i did.
 
 <p align="center">
   <img src="argocd-screenshots/01-argocd-dashboard-synced.png" alt="ArgoCD Dashboard" width="800">
 </p>
 
-Look at this dashboard - ArgoCD watches my GitHub and deploys everything automatically. No more clicking buttons or running commands!
+Look at this above dashboard, ArgoCD watches my GitHub and deploys everything automatically. No more clicking buttons or running commands!
 
-## 📊 My Results (All Tracked in MLflow!)
+##  My Results (All Tracked in MLflow!)
 
 ### Task 1: Teaching BERT About Finance
 I taught BERT to understand money talk better:
@@ -37,7 +37,7 @@ Built tests to show the improvement actually works:
 * **Model size**: 109,514,298 parameters
 * **GPU memory**: Only 0.44 GB allocated
 
-## 🎯 NEW: MLflow Experiment Tracking
+##  NEW: MLflow Experiment Tracking
 
 I went the extra mile and added MLflow for professional ML experiment tracking!
 
@@ -66,7 +66,7 @@ kubectl port-forward -n soperator deployment/mlflow-tracking 5000:5000
 open http://localhost:5000
 ```
 
-## 🔄 How GitOps Makes Life Easy
+##  How GitOps Makes Life Easy
 
 Here's the magic - I don't deploy anything manually anymore:
 
@@ -83,7 +83,7 @@ Here's the magic - I don't deploy anything manually anymore:
 
 This diagram shows the complete GitOps lifecycle - from code push to deployment, including how all three tasks run on H100 GPUs!
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 My Repository:
@@ -106,7 +106,7 @@ My Repository:
 * **Easy fixes**: Messed up? Just roll back
 * **Full observability**: Know exactly what happened when
 
-## 🎯 Try It Yourself
+## Try It Yourself
 
 ### Step 1: Connect to ArgoCD
 ```bash
@@ -130,7 +130,7 @@ kubectl port-forward -n soperator deployment/mlflow-tracking 5000:5000
 ```
 Go to: http://localhost:5000
 
-## 📈 Performance Numbers
+## Performance Numbers
 
 Here's what I pulled off (all verified in MLflow):
 * **Training boost**: 68% better at understanding text
@@ -139,7 +139,7 @@ Here's what I pulled off (all verified in MLflow):
 * **Experiment tracking**: 100% of runs logged automatically
 * **Human work needed**: Zero!
 
-## 🔧 Technologies I Used
+##  Technologies I Used
 
 * **Nebius.ai**: Cloud with super powerful GPUs
 * **ArgoCD**: Watches Git and deploys stuff
@@ -148,7 +148,7 @@ Here's what I pulled off (all verified in MLflow):
 * **BERT**: Google's smart language model
 * **H100 GPUs**: NVIDIA's beast machines
 
-## 🏆 What Makes This Special
+## What Makes This Special
 
 This isn't just some toy project - it's a real ML platform that:
 * Trains models while I sleep
@@ -158,7 +158,7 @@ This isn't just some toy project - it's a real ML platform that:
 * Shows real metrics from real GPU runs
 * Can handle tons of traffic if needed
 
-## ⭐ Beyond Requirements
+## Beyond Requirements
 
 I didn't just complete the 3 tasks - I built a production-ready MLOps platform:
 
@@ -176,7 +176,7 @@ I didn't just complete the 3 tasks - I built a production-ready MLOps platform:
   <em>All metrics are real from actual H100 GPU runs</em>
 </p>
 
-## 🏗️ The Builder
+## The Builder
 
 **Geeta Kudumula**  
 AI/ML Solutions Architect  
