@@ -7,7 +7,7 @@ I built a cool ML system that basically runs itself using Nebius.ai - let me sho
 I made this pipeline that trains and deploys BERT models automatically. The best part? I just push code to Git and everything else happens on its own! Plus, I added MLflow to track every experiment like a pro!
 
 <p align="center">
-  <img src="argocd-screenshots/argocd-gitops-lifecycle%20.png" alt="GitOps Lifecycle Architecture" width="600">
+  <img src="argocd-screenshots/argocd-gitops-lifecycle%20.png" alt="GitOps Lifecycle Architecture" width="500">
 </p>
 
 Look at this dashboard - ArgoCD watches my GitHub and deploys everything automatically. No more clicking buttons or running commands!
