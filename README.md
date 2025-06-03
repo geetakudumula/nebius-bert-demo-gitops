@@ -95,7 +95,7 @@ My Repository:
 │   └── mlflow/               # MLflow tracking server
 ├── argocd-apps/              # ArgoCD setup files
 ├── argocd-screenshots/       # Pictures showing it works!
-└── mlflow-demo-simple.py     # Script to populate MLflow
+└── mlflow-screenshots/       # MLflow UI screenshots
 ```
 
 ### Why This Is Awesome
