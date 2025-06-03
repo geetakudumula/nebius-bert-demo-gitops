@@ -51,7 +51,6 @@ I went the extra mile and added MLflow for professional ML experiment tracking!
 <p align="center">
   <img src="mlflow-screenshots/mlflow-screenshot.png" alt="MLflow Experiments" width="800">
 </p>
-
 All the numbers you see are REAL from actual H100 GPU runs:
 * **68% loss reduction** in financial domain fine-tuning
 * **Sub-5ms inference** latency in production
@@ -83,20 +82,6 @@ Here's the magic - I don't deploy anything manually anymore:
 
 This diagram shows the complete GitOps lifecycle - from code push to deployment, including how all three tasks run on H100 GPUs!
 
-##  Project Structure
-
-```
-My Repository:
-├── manifests/                 # All my Kubernetes configs
-│   ├── namespace.yaml        # Sets up my workspace
-│   ├── task1-training/       # Stuff for training BERT
-│   ├── task2-inference/      # API service configs
-│   ├── task3-comparison/     # Testing configs
-│   └── mlflow/               # MLflow tracking server
-├── argocd-apps/              # ArgoCD setup files
-├── argocd-screenshots/       # Pictures showing it works!
-└── mlflow-screenshots/       # MLflow UI screenshots
-```
 
 ### Why This Is Awesome
 * **No manual work**: Push code, grab coffee, it's deployed
