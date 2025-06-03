@@ -49,7 +49,7 @@ I went the extra mile and added MLflow for professional ML experiment tracking!
 
 ### Real Metrics in MLflow
 <p align="center">
-  <img src="mlflow-screenshots/experiments-list.png" alt="MLflow Experiments" width="800">
+  <img src="mlflow-screenshots/mlflow-screenshot.png" alt="MLflow Experiments" width="800">
 </p>
 
 All the numbers you see are REAL from actual H100 GPU runs:
