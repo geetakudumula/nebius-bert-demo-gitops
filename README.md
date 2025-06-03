@@ -77,6 +77,12 @@ Here's the magic - I don't deploy anything manually anymore:
 5. **I watch it happen** → See everything on both dashboards
 6. **Oops button** → If something breaks, one click fixes it
 
+<p align="center">
+  <img src="argocd-screenshots/argocd-gitops-lifecycle.png" alt="GitOps Lifecycle Architecture" width="800">
+</p>
+
+This diagram shows the complete GitOps lifecycle - from code push to deployment, including how all three tasks run on H100 GPUs!
+
 ## 📁 Project Structure
 
 ```
