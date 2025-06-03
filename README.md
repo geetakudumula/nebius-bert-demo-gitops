@@ -26,7 +26,7 @@ Made a service that answers questions lightning fast:
 * **Response time**: Under 6 milliseconds (that's really quick!)
 * **Always on**: Works 99.9% of the time
 * **Easy to use**: Just send a request and get an answer
-* **Hardware**: Running on those beefy H100 GPUs
+* **Hardware**: Running on those powerful H100 GPUs
 
 ### Task 3: Proving My Work
 Built tests to show the improvement actually works:
