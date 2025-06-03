@@ -57,8 +57,8 @@ All the numbers you see are REAL from actual H100 GPU runs:
 ### Access MLflow Dashboard
 ```bash
 # Port-forward to access MLflow UI
-
-How GitOps Makes Life Easy
+```
+### How GitOps Makes Life Easy
 Here's the magic - I don't deploy anything manually anymore:
 
 I write code → Push it to GitHub
