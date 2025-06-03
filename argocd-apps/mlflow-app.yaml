@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: mlflow
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/YOUR-USERNAME/nebius-bert-demo-gitops
+    targetRevision: HEAD
+    path: manifests/mlflow
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: soperator
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

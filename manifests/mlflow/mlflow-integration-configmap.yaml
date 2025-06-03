@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mlflow-integration-scripts
+  namespace: soperator
+data:
+  log_to_mlflow.py: |
+    import mlflow
+    import mlflow.pytorch
+    import os
+    
+    MLFLOW_TRACKING_URI = os.getenv('MLFLOW_TRACKING_URI', 'http://mlflow-tracking:5000')
+    
+    def setup_mlflow(experiment_name):
+        mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+        mlflow.set_experiment(experiment_name)
+        print(f"MLflow tracking URI: {MLFLOW_TRACKING_URI}")
+        print(f"Active experiment: {experiment_name}")
+        
+    def log_training_metrics(metrics_dict, params_dict, model=None):
+        with mlflow.start_run():
+            mlflow.log_params(params_dict)
+            for key, value in metrics_dict.items():
+                mlflow.log_metric(key, value)
+            if model:
+                mlflow.pytorch.log_model(model, "model")
+            print("Metrics logged to MLflow successfully!")
